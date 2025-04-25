@@ -55,6 +55,7 @@ MONGO_PASSWORD="password"
 MONGO_CLUSTER="cluster0.oj1mpxa"
 MONGO_APP_NAME="Cluster0"
 MONGO_CLUSTER_DB="mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}.mongodb.net/${MONGO_DB}?retryWrites=true&w=majority&appName=${MONGO_APP_NAME}"
+# cluster for cluster based connection or local for local connection
 MONGO_DB_URI_PREFERENCE="cluster"
 ```
 
