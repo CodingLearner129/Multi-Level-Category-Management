@@ -151,7 +151,7 @@ To test the API easily using Postman:
 In Postman, go to the Environments tab (top right gear icon).
 
 - Click Import and choose:
-    Multi-Level Category Management.postman_environment.json
+    - Multi-Level Category Management.postman_environment.json
 - Select it from the environment dropdown in the top-right corner.
 - The environment contains:
     - baseUrl → your API base URL (http://localhost:3300/api)
