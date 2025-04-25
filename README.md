@@ -137,22 +137,22 @@ npm run test
 ---
 
 ## 📬 How to Import Postman Collection & Environment
-    To test the API easily using Postman:
+To test the API easily using Postman:
 
 ### 🔁 1. Import the Collection
 
 - Open Postman
 - Click on File → Import
 - Select the file:
-    Multi-Level Category Management.postman_collection.json
+    - Multi-Level Category Management.postman_collection.json
 - This will import all pre-configured requests (register, login, create category, etc).
 
 ### 🌐 2. Import the Environment
-    In Postman, go to the Environments tab (top right gear icon).
+In Postman, go to the Environments tab (top right gear icon).
 
 - Click Import and choose:
     Multi-Level Category Management.postman_environment.json
 - Select it from the environment dropdown in the top-right corner.
 - The environment contains:
-    baseUrl → your API base URL (http://localhost:3300/api)
-    authToken → automatically stores the JWT after login for reuse in requests
+    - baseUrl → your API base URL (http://localhost:3300/api)
+    - authToken → automatically stores the JWT after login for reuse in requests
