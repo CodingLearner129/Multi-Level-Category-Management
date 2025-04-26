@@ -38,13 +38,13 @@ cd Multi-Level-Category-Management-Node-TS-With-Test-Case
 npm install
 ```
 
-### 3. Generate .env file from .env.example file
+### 3. 📄 Generate .env file from .env.example file
 
 ```bash
 cp .env.example .env
 ```
 
-### 4. Configure your database in the .env file
+### 4. 🛠️ Configure your database in the .env file
 
 ```bash
 MONGO_LOCAL=0.0.0.0:27017
@@ -59,19 +59,19 @@ MONGO_CLUSTER_DB="mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}
 MONGO_DB_URI_PREFERENCE="cluster"
 ```
 
-### 5. Configure your jwt encryption in the .env file
+### 5. 🛠️ Configure your jwt encryption in the .env file
 
 ```bash
 JWT_ENCRYPTION=secret
 ```
 
-### 6. Configure port in the .env file
+### 6. 🛠️ Configure port in the .env file
 
 ```bash
 PORT=3300
 ```
 
-### 7. Run the server
+### 7. 🚀 Run the server
 
 ```bash
 # run project
@@ -86,7 +86,7 @@ npm run dev
 npm test
 ```
 
-## Tests include:
+## 🧪 Tests include:
 
 - ✅ Auth (register, login, duplicate)
 - ✅ Category (create, tree fetch, update, delete)
