@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "35d53dce-8119-4e30-9bb4-c26593db6f51",
-		"name": "Category Manger",
+		"_postman_id": "9fdf4e8a-fa70-4b7b-8506-a4f4ba909b68",
+		"name": "Multi-Level Category Management",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20461760"
 	},
@@ -29,6 +29,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"auth",
 								"register"
 							]
@@ -55,6 +56,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"auth",
 										"register"
 									]
@@ -120,6 +122,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"auth",
 										"register"
 									]
@@ -201,6 +204,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"auth",
 								"login"
 							]
@@ -227,6 +231,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"auth",
 										"login"
 									]
@@ -292,6 +297,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"auth",
 										"login"
 									]
@@ -375,6 +381,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"category"
 							]
 						}
@@ -411,6 +418,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category"
 									]
 								}
@@ -486,6 +494,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category"
 									]
 								}
@@ -549,6 +558,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"category"
 							]
 						}
@@ -571,6 +581,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category"
 									]
 								}
@@ -648,6 +659,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"category",
 								"680b57abb0abc2e200967244"
 							]
@@ -685,6 +697,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category",
 										"680b57abb0abc2e200967244"
 									]
@@ -761,6 +774,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category",
 										"680b5b108b8b3321cadb5cf1"
 									]
@@ -825,6 +839,7 @@
 								"{{baseUrl}}"
 							],
 							"path": [
+								"api",
 								"category",
 								"680b5afb8b8b3321cadb5ceb"
 							]
@@ -848,6 +863,7 @@
 										"{{baseUrl}}"
 									],
 									"path": [
+										"api",
 										"category",
 										"680b5afb8b8b3321cadb5ceb"
 									]
