@@ -19,7 +19,7 @@ interface UserRequest extends Request {
 export const createCategory = async (req: UserRequest, res: Response): Promise<any> => {
     try {
         const { name, parent_id }: { name: string, parent_id: string } = req.body;
-        const getCategory = await Category.findOne({ name, user_id: req.user!._id });
+        const getCategory = await Category.findOne({ name });
         if (getCategory) {
             return res.status(config.http_status_ok).json({
                 status: config.status_fail,
@@ -48,7 +48,7 @@ export const createCategory = async (req: UserRequest, res: Response): Promise<a
 export const getAllCategories = async (req: UserRequest, res: Response): Promise<any> => {
     try {
         const categories = await Category.aggregate([
-            { $match: { parent_id: null, user_id: req.user!._id } },
+            { $match: { parent_id: null } },
             {
                 $graphLookup: {
                     from: 'categories',
@@ -117,7 +117,7 @@ export const updateCategory = async (req: UserRequest, res: Response): Promise<a
             });
         }
         if (name) {
-            const checkCategoryName = await Category.findOne({ _id: { $ne: categoryId }, name, user_id: req.user!._id });
+            const checkCategoryName = await Category.findOne({ _id: { $ne: categoryId }, name });
             if (checkCategoryName) {
                 return res.status(config.http_status_ok).json({
                     status: config.status_fail,
