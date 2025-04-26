@@ -3,7 +3,9 @@ import mongoose from 'mongoose';
 const categorySchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        unique: true,
+        required: true,
+        trim: true,
     },
     status: {
         type: String,
@@ -13,16 +15,17 @@ const categorySchema = new mongoose.Schema({
     parent_id: {
         type: mongoose.Schema.ObjectId,
         ref: 'Category',
-        default: null
+        default: null,
     },
     user_id: {
         type: mongoose.Schema.ObjectId,
         ref: 'User',
-        default: null
+        default: null,
     },
 }, { timestamps: true });
 
 categorySchema.index({ parent_id: 1 }); // Optimize parent-child lookups
+categorySchema.index({ user_id: 1 });
 
 const Category = mongoose.model('categories', categorySchema);
 
