@@ -112,7 +112,7 @@ npm run test
 |--------|-----------------------|---------------------------------------------------|
 | POST   | `/api/category`        | Create category (optional parent_id)              |
 | GET    | `/api/category`        | Fetch all categories as a tree                    |
-| PUT    | `/api/category/:id`    | Update category name or status                    |
+| PUT    | `/api/category/:id`    | Update category name or status, and when a category is marked inactive, all its subcategories should be inactive                  |
 | DELETE | `/api/category/:id`    | Delete category and reassign children to parent   |
 
 ---
