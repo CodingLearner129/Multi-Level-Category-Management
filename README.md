@@ -83,7 +83,7 @@ npm run dev
 ### 8. 🧪 Run Tests
 
 ```bash
-npm run test
+npm test
 ```
 
 ## Tests include:
