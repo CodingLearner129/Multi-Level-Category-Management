@@ -28,8 +28,8 @@ A secure, efficient Node.js API to manage nested categories with JWT authenticat
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/CodingLearner129/Multi-Level-Category-Management.git
-cd Multi-Level-Category-Management
+git clone https://github.com/CodingLearner129/Multi-Level-Category-Management-Node-TS.git
+cd Multi-Level-Category-Management-Node-TS
 ```
 
 ### 2. Installation
