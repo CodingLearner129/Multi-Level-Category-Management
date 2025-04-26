@@ -24,7 +24,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/auth/register",
+							"raw": "{{baseUrl}}/api/auth/register",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -50,7 +50,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/auth/register",
+									"raw": "{{baseUrl}}/api/auth/register",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -115,7 +115,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/auth/register",
+									"raw": "{{baseUrl}}/api/auth/register",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -196,7 +196,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/auth/login",
+							"raw": "{{baseUrl}}/api/auth/login",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -222,7 +222,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/auth/login",
+									"raw": "{{baseUrl}}/api/auth/login",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -287,7 +287,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/auth/login",
+									"raw": "{{baseUrl}}/api/auth/login",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -370,7 +370,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/category",
+							"raw": "{{baseUrl}}/api/category",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -406,7 +406,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/category",
+									"raw": "{{baseUrl}}/api/category",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -481,7 +481,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/category",
+									"raw": "{{baseUrl}}/api/category",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -544,7 +544,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/category",
+							"raw": "{{baseUrl}}/api/category",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -566,7 +566,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/category",
+									"raw": "{{baseUrl}}/api/category",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -643,7 +643,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/category/680b57abb0abc2e200967244",
+							"raw": "{{baseUrl}}/api/category/680b57abb0abc2e200967244",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -680,7 +680,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/category/680b57abb0abc2e200967244",
+									"raw": "{{baseUrl}}/api/category/680b57abb0abc2e200967244",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -756,7 +756,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{baseUrl}}/category/680b5b108b8b3321cadb5cf1",
+									"raw": "{{baseUrl}}/api/category/680b5b108b8b3321cadb5cf1",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -820,7 +820,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/category/680b5afb8b8b3321cadb5ceb",
+							"raw": "{{baseUrl}}/api/category/680b5afb8b8b3321cadb5ceb",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -843,7 +843,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/category/680b5afb8b8b3321cadb5ceb",
+									"raw": "{{baseUrl}}/api/category/680b5afb8b8b3321cadb5ceb",
 									"host": [
 										"{{baseUrl}}"
 									],
