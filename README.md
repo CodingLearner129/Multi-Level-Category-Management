@@ -159,5 +159,5 @@ In Postman, go to the Environments tab (top right gear icon).
     - Multi-Level Category Management.postman_environment.json
 - Select it from the environment dropdown in the top-right corner.
 - The environment contains:
-    - baseUrl → your API base URL (http://localhost:3300/api)
+    - baseUrl → your API base URL (http://localhost:3300)
     - authToken → automatically stores the JWT after login for reuse in requests
