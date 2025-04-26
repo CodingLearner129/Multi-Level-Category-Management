@@ -99,17 +99,17 @@ npm run test
 
 ### 🔸 Auth
 
-    Method | Endpoint           | Description
-    POST   | /api/auth/register | Register new user
-    POST   | /api/auth/login    | Login and get token
+Method | Endpoint | Description
+POST | /api/auth/register | Register new user
+POST | /api/auth/login | Login and get token
 
 ### 🔸 Category (Protected)
 
-    Method | Endpoint          | Description
-    POST   | /api/category     | Create category (optional parent_id)
-    GET    | /api/category     | Fetch all categories as a tree
-    PUT    | /api/category/:id | Update name or status
-    DELETE | /api/category/:id | Delete and reassign children to parent
+Method | Endpoint | Description
+POST | /api/category | Create category (optional parent)
+GET | /api/category | Fetch all categories as a tree
+PUT | /api/category/:id | Update category name or status
+DELETE | /api/category/:id | Delete category and reassign children to parent
 
 ---
 
