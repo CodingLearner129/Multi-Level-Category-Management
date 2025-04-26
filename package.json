@@ -9,7 +9,7 @@
     "test": "npx jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dhruv Parmar <dgparmar1299@gmail.com>",
   "license": "ISC",
   "type": "commonjs",
   "jest": {
